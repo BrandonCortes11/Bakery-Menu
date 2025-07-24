@@ -14,9 +14,9 @@ dessert.forEach((dessertItem) => {
 
     button.addEventListener("click", function() {
         if (dessertItem.inStock) {
-            orderSummaryContainer.textContent = You Selected: ${dessertItem.name} ($${dessertItem.price.toFixed(2)});
+            orderSummaryContainer.textContent = `You selected: ${dessertItem.name} ($${dessertItem.price.toFixed(2)})`;
         } else {
-            orderSummaryContainer.textContent = Sorry, ${dessertItem.name} is sold out.;
+            orderSummaryContainer.textContent = `Sorry, ${dessertItem.name} is sold out.`;
         }
     });
 
