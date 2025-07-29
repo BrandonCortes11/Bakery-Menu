@@ -20,3 +20,18 @@ li, p {
     font-size: 18px;
     margin: 5px 0;
 }
+
+body {
+    background-image: url(pexels-adrien-olichon-1257089-3709370.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0, 7);
+}

@@ -16,9 +16,9 @@ const movieRecs = {
     ],
 };
 
-const happyBtn = document.getElementById("happy");
-const sadBtn = document.getElementById("sad");
-const excitedBtn = document.getElementById("excited");
+const happyBtn = document.getElementById("happy-btn");
+const sadBtn = document.getElementById("sad-btn");
+const excitedBtn = document.getElementById("excited-btn");
 const movieList = document.getElementById("movie-list");
 
 function showMovies(mood) {
@@ -29,7 +29,7 @@ function showMovies(mood) {
         movieRec.textContent = movies;
         movieList.appendChild(movieRec);
     });
-}
+};
 
 happyBtn.addEventListener("click", function () {
     showMovies("happy");
