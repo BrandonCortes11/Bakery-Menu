@@ -1,0 +1,33 @@
+header, h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    text-align: right;
+}
+
+body {
+    background-image: url(michael-fortsch-gRAS87wSVCs-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    color: #f0f0f0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 7);
+}
+
+a {
+    color: blanchedalmond;
+    text-decoration: underline;
+    font-weight: bold;
+}
